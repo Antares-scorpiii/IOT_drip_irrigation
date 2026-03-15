@@ -6,6 +6,7 @@ on:
     paths:
       - 'README.md'
       - 'docs/**'
+      - 'mkdocs.yml'
 
 jobs:
   deploy:
@@ -16,4 +17,4 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force -f docs/mkdocs.yml
+      - run: mkdocs gh-deploy mkdocs.yml

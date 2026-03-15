@@ -19,3 +19,4 @@ graph LR
     ESP <-->|Wi-Fi| B[Blynk Cloud]
     B <--> M[Mobile App / Web Dashboard]
   end
+```
