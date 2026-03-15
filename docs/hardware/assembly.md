@@ -13,7 +13,6 @@ For the most accurate readings and safety, follow this specific order from the t
 6.  **Drip Irrigation Adapter** (To 16mm or 12mm drip pipe)
 
 
-
 ## Housing the Electronics
 Since this will be near water:
 * Use an **IP65 rated Junction Box**.
