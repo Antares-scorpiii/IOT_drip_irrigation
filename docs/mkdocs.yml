@@ -1,0 +1,39 @@
+site_name: IoT Drip Irrigation System
+site_description: An ESP8266 based smart irrigation controller with Blynk integration.
+site_author: Your Name
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+    - scheme: slate
+      primary: teal
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - search.share
+
+nav:
+  - Home: index.md
+  - Hardware:
+      - Components & Selection: hardware/components.md
+      - Wiring & Power: hardware/wiring.md
+      - Physical Assembly: hardware/assembly.md
+  - Software:
+      - Installation: software/installation.md
+      - Blynk Configuration: software/blynk-config.md
+  - Operation Modes: modes.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
